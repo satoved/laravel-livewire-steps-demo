@@ -3193,12 +3193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/satoved/laravel-livewire-steps.git",
-                "reference": "35e3ac5ccea4a350d5189ee2318351429086d583"
+                "reference": "efcc71818853bc7ece8e3da4d73e8fcd83977d82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/satoved/laravel-livewire-steps/zipball/35e3ac5ccea4a350d5189ee2318351429086d583",
-                "reference": "35e3ac5ccea4a350d5189ee2318351429086d583",
+                "url": "https://api.github.com/repos/satoved/laravel-livewire-steps/zipball/efcc71818853bc7ece8e3da4d73e8fcd83977d82",
+                "reference": "efcc71818853bc7ece8e3da4d73e8fcd83977d82",
                 "shasum": ""
             },
             "require": {
@@ -3256,7 +3256,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-24T13:51:16+00:00"
+            "time": "2024-09-24T14:11:17+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
