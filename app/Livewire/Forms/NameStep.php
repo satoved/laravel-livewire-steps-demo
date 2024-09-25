@@ -8,9 +8,14 @@ use Satoved\LivewireSteps\Livewire\Forms\StepForm;
 
 class NameStep extends StepForm
 {
-    //
+    #[Validate(['required', 'string', 'min:2'])]
+    public $first_name;
+
+    #[Validate(['required', 'string', 'min:2'])]
+    public $last_name;
+
     public function render()
     {
-        // TODO: Implement render() method.
+        return view('livewire.steps.name-step');
     }
 }

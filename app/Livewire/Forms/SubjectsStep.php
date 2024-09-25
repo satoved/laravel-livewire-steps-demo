@@ -8,8 +8,11 @@ use Satoved\LivewireSteps\Livewire\Forms\StepForm;
 
 class SubjectsStep extends StepForm
 {
+    #[Validate(['required', 'array'])]
+    public $subjects = [];
+
     public function render()
     {
-        // TODO: Implement render() method.
+        return view('livewire.steps.subjects-step');
     }
 }

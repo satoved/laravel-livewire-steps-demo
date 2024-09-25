@@ -8,8 +8,11 @@ use Satoved\LivewireSteps\Livewire\Forms\StepForm;
 
 class EmailStep extends StepForm
 {
+    #[Validate('required', 'email')]
+    public $email;
+
     public function render()
     {
-        // TODO: Implement render() method.
+        return view('livewire.steps.email-step');
     }
 }

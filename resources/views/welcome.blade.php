@@ -6,7 +6,7 @@
 
         <title>Laravel Livewire Steps Demo</title>
 
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
     </head>
     <body class="font-sans antialiased flex items-center justify-center min-h-[100vh] bg-gray-100 p-3">
         <livewire:email-subscription-wizard/>
