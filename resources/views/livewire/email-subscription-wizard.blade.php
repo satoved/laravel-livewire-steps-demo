@@ -46,7 +46,7 @@
             </form>
         @else
             <div>
-                <h1 class="text-2xl font-medium">Thank you!</h1>
+                <h1 class="text-2xl font-medium">Thank you, {{ $name_step->first_name }}!</h1>
                 <div class="mt-5">You are now subscribed</div>
             </div>
         @endif
